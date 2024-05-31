@@ -250,7 +250,7 @@ imagecont: {
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
-    paddingVertical: hp('3%'),
+    paddingVertical: hp('4%'),
 },
 imagetxt: {
     textAlign: 'center',
@@ -275,7 +275,7 @@ textinput: {
     fontFamily: 'Roboto',
 },
 aroundtext: {
-    fontSize: wp('5%'),
+    fontSize: wp('7.7%'),
     color: '#EDF6FF',
     paddingVertical: hp('2%'),
     fontFamily: 'Roboto',

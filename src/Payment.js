@@ -43,7 +43,7 @@ const Payment = () => {
   // Handler to close the alert and navigate to Pickup screen
   const handleCloseAlert = () => {
     setShowAlert(false);  // Close the alert
-    navigation.navigate('Pickup');  // Navigate to Pickup screen
+    navigation.navigate('Paylater');  // Navigate to Pickup screen
   };
 
   // Handler for confirming the payment method

@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useNavigation } from '@react-navigation/native';
 
-const Account = (props) => {
+const Account = () => {
   
 
   const navigation = useNavigation();

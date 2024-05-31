@@ -12,7 +12,6 @@ import Debit from './src/Debit';
 import Dropdown from './src/Dropdown';
 import BackNavigator from './src/BackNavigator';
 import Packages from './src/Packages';
-import Pickup from './src/Pickup';
 import RecievingPackages from './src/RecievingPackages';
 import SendPackages from './src/SendPackages';
 import UberProfile from './src/UberProfile';
@@ -26,6 +25,7 @@ import SelectLocationScreen from './src/SelectLocationScreen';
 import CabBookingScreen from './src/CabBookingScreen';
 import BookingDetailsScreen from './src/BookingDetailsScreen';
 import Success from './src/Success';
+import Paylater from './src/Paylater';
 
 
 const Stack = createStackNavigator();
@@ -54,7 +54,7 @@ const App = () => {
 
 
         <Stack.Screen name='Packages' component={Packages} options={{ headerShown: false }} />
-        <Stack.Screen name='Pickup' component={Pickup} options={{ headerShown: false }} />
+        <Stack.Screen name='Paylater' component={Paylater} options={{ headerShown: false }} />
         <Stack.Screen name='RecievingPackages' component={RecievingPackages} options={{ headerShown: false }} />
         <Stack.Screen name='SendPackages' component={SendPackages} options={{ headerShown: false }} />
 

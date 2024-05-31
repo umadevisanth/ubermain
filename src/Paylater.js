@@ -5,7 +5,7 @@ import MapView from 'react-native-maps';
 import { useNavigation } from '@react-navigation/native';
 import Globalstyle from './Globalstyles';
 
-const Pickup = () => {
+const Paylater = () => {
     const pick={
         pickup:'To find your pickup',
         location:'location',
@@ -14,7 +14,9 @@ const Pickup = () => {
         turnon:'Turn on Location',
         ride:'Ride',
         package:'Package',
-        around:'Around you',
+        around:'Select your Service to proceed',
+        car:'Choose ride for your car service',
+        pack:'Choose package for deliveries',
 
 
 
@@ -77,24 +79,27 @@ const Pickup = () => {
 
                         {/* Text input for entering the pickup point */}
                         <View>
-                            <TextInput 
+                            {/* <TextInput 
                                 style={Globalstyle.textinput} 
                                 placeholder='Enter pickup point' 
                                 placeholderTextColor='white' 
                                 color='white' 
-                            />
+                            /> */}
                             <Text style={Globalstyle.aroundtext}>{pick.around}</Text>
+                            <Text style={Globalstyle.aroundtext}>{pick.car}</Text>
+
+                            <Text style={Globalstyle.aroundtext}>{pick.pack}</Text>
                         </View>
                     </View>
 
                     {/* Container for the map view */}
-                    <View style={Globalstyle.mapContainer}>
+                    {/* <View style={Globalstyle.mapContainer}>
                         <MapView style={Globalstyle.mapCont}></MapView>
-                    </View>
+                    </View> */}
                 </View>
             </ScrollView>
         </View>
     );
 };
 
-export default Pickup;
+export default Paylater;
