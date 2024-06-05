@@ -495,7 +495,7 @@ const Globalstyle = StyleSheet.create({
     socialoptionview: {
         display: 'flex',
         flexDirection: 'row',
-        marginVertical: '10%'
+        marginVertical: '14%'
     },
 
     socialviewtext: {

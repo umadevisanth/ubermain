@@ -44,7 +44,7 @@ const Success = () => {
 
             {/* Done button to navigate to Pickup screen */}
             <View style={Globalstyle.buttonContainer}>
-                <TouchableOpacity style={Globalstyle.button} onPress={() => navigation.navigate('Pickup')}>
+                <TouchableOpacity style={Globalstyle.button} onPress={() => navigation.navigate('Paylater')}>
                     <Text style={Globalstyle.buttonText}>{success.done}</Text>
                 </TouchableOpacity>
             </View>
